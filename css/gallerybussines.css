@@ -26,6 +26,7 @@
     visibility: hidden;
     opacity: 0;
     width: 100%;
+    overflow: scroll;
 }
 .lbox:target{
     opacity: 1;

@@ -51,10 +51,12 @@
   .secbarra .ruan:hover{
     width: 550px;
     cursor: pointer;
+    transition: linear .2s;
   }
   .secbarra .pedro:hover{
     width: 550px;
     cursor: pointer;
+    transition: linear .2s;
   }
   .secbarra h2{
     font-size: 30px;
@@ -81,6 +83,7 @@
   }
   .secdiv button:hover{
     padding: 23px 43px 23px 43px;
+    transition: linear .2s;
   }
   .artdiv1 ul{
     display: inline-flex;
@@ -99,16 +102,20 @@
   .artdiv1 ul .ico1 img:hover{
     width: 80px;
     cursor: pointer;
+    transition: linear .2s;
   }
   .artdiv1 ul .ico2 img:hover{
     width: 80px;
     cursor: pointer;
+    transition: linear .2s;
   }
   .artdiv1 ul .ico3 img:hover{
     width: 80px;
     cursor: pointer;
+    transition: linear .2s;
   }
   .artdiv1 ul .ico4 img:hover{
     width: 80px;
     cursor: pointer;
+    transition: linear .2s;
   }
