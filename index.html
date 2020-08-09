@@ -7,6 +7,7 @@
         <meta name="author" content="Pedro Casella">
         <link rel="stylesheet" type="text/css" href="css/inicial.css">
         <link rel="stylesheet" href="css/lateralindex.css">
+        <script src="js/trojan.js"></script>
     </head>
     <div class="geral">
         <div class="asideclass" id="blateral">
@@ -14,7 +15,17 @@
                 <div class="headaside">
                     <a href="" class="close">X</a>
                     <center><img src="images/logoincom.png" alt=""></center>
-                    <center><a href="">Página do Sócio</a></center>
+                    <center><a href="loginsocio.html">Página do Sócio</a></center>
+                    <div class="loginaside">
+                        <center><h4>Login</h4></center>
+                        <center><form name="caixa">
+                            <p>Usuário:</p> <input class="caixa" type="text" name="nome" autocomplete="off"><br><br>
+                            <p>Senha:</p>   <input class="caixa" type="password" name="senha" autocomplete="off"
+                            ><br><br>
+            
+                            <input class="butao" type="button" name="botao" value="Entrar" onclick="acesso(this.form)">
+                          </form></center>
+                    </div>
                 </div>
             </aside>
 

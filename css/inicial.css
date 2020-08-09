@@ -119,3 +119,29 @@
     cursor: pointer;
     transition: linear .2s;
   }
+  .asideclass .headaside .loginaside .caixa{
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    border: purple;
+  }
+  .asideclass .headaside .loginaside .butao{
+    padding: 10px 20px 10px 20px;
+    font-size: 18px;
+    font-family: helvetica;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    border: 0px;
+  }
+  .loginaside{
+    padding: 35px 0px 0px 0px;
+  }
+  .loginaside p{
+    font-size: 18px;
+    color: white;
+  }
+  .loginaside h4{
+    padding: 0px 0px 8px 0px;
+    font-size: 20px;
+    color: white;
+  }
