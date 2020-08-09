@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .geral{
+    background-image: url(bodybackground.png);
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    padding: 0px 0px 700px 0px;
+  }
+  .headiv{
+      background-image: url(headbackground.jpg);
+  }
+  header h1 img{
+    width: 300px;
+  }
+  .headiv button{
+    float: top;
+    padding: 10px;
+    background-image: url(headbackground.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    border-color: white;
+    border: 10px;
+  }
+  .headiv button a{
+    color: white;
+    text-decoration: none;
+  }
+  .headiv button:hover{
+    transition: .2s linear;
+    background-color: white;
+    opacity: 0.3;
+  }

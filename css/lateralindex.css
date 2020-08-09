@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.asideclass{
+    background-color: teal;
+    float: right;
+    visibility: hidden;
+  }
+  .asideclass:target{
+      transition: linear .4s;
+      visibility: visible;
+      float: left;
+      padding: 20px 0px 2000px 0px;
+      width: 25%;
+  }
+  }
+  .headaside{
+      width: 100%;
+  }
+  .headaside .close{
+      color: white;
+      font-size: 16px;
+      padding: 5px;
+      float: left;
+  }
+  .asideclass .headaside img{
+      width: 100px;
+  }
+  .headaside a{
+      color: white;
+      font-family: helvetica;
+      font-size: 18px;
+      text-decoration: none;
+  }
+  .headaside a:hover{
+      transition: .1s linear;
+      font-size: 20px;
+  }
