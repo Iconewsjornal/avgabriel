@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/pedro/ganhospedro.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <title>Seus Ganhos - Pedro Casella</title>
+</head>
+<div class="geral">
+    <body>
+        <div class="headiv">
+            <header>
+                <center><h1><img src="../../css/logoavcompleta.png" alt=""></h1></center>
+            </header>
+        </div>
+        <div class="asidiv">
+            <aside>
+                <ul><li><img src="../../ico/Icone Perfil.png" alt=""></li><li><center><a href="paginasociopedro.html">Perfil</a></center></li></ul><hr>
+                <ul><li><img src="../../ico/Icone do Nível.png" alt=""><li><center><a href="sociostatuspedro.html" class="nivela">Nível do Sócio</a></center></li></ul><hr>
+                <ul><li><img src="../../ico/ícone ganhos.png" alt=""><li><center><a href="">Seus Ganhos</a></center></li></ul><hr>
+                <ul><li><img src="../../ico/icone configurações.png" alt=""><li><li><center><a href="developerpedro.html">Opções</a></center></li></ul><hr>
+            </aside>
+        </div>
+        <div class="graphicdiv">
+            <aside>
+                <canvas class="line-chart"></canvas>
+<!-- JS DO GRÁFICO-->
+                <script>
+                    var ctx = document.getElementsByClassName("line-chart")
+
+                    //Type, Data e options
+                    var chartGraph = new Chart(ctx, {
+                        type: 'line',
+                        data: {
+                            labels: ["Semana 1", "Semana 2","Semana 3", "Semana 4"],
+                            datasets: [{
+                                label: "Ganhos Semanais",
+                                data:[0,0,0,0,0,0,0,0],
+                                borderWidth: 6,
+                                bordercolor: 'rgba(77,166,253,0,85)',
+                                backgroundcolor: 'transparent'
+                            }]
+                        },
+                        options: {
+                            title:{
+                                display: true,
+                                fontsize: 20,
+                                text: "Relatório de Ganhos Semanais"
+                            },
+                            labels: {
+                                fontStyle: "bold"
+                            }
+                        }
+                    });
+                </script>
+            </aside>
+        </div>
+    </body>
+</div>
+</html>

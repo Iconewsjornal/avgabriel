@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .geral{
+    background-image: url(../bodybackground.png);
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    padding: 0px 0px 700px 0px;
+  }
+  .headiv{
+      background-image: url(../headbackground.jpg);
+  }
+  header h1 img{
+    width: 200px;
+  }
+  .lperfil{
+    padding: 100px 0px 0px 110px;
+  
+  }
+  .lperfil img{
+    width: 180px;
+    border-radius: 30px;
+  }
+  .lperfil img:hover{
+    width: 200px;
+    border-radius: 30px;
+    transition: linear .1s;
+  }
+  .lperfil h2{
+    font-family: helvetica;
+    font-size: 26px;
+    padding: 15px 0px 0px 30px;
+  }
+  .asidiv{
+    background-color: black;
+    width: 20%;
+    padding: 20px 0px 700px 0px;
+    float: left;
+  }
+  .asidiv aside a{
+    font-size: 23px;
+    color: white;
+    text-decoration: none;
+    font-family: helvetica;
+  }
+
+.lperfil button{
+  background-color: greenyellow;
+  padding: 5px 110px 5px 110px;
+  border-radius: 30px;
+}
+.barn{
+  padding: 0px 0px 50px 0px;
+}
+#infoniv{
+  background: black;
+  opacity: 0.8;
+}
+.info p{
+  color: white;
+}
+.deslog{
+  background-image: url(../headbackground.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+  float: right;
+}
+.perflog{
+  float: right;
+}
+.perflog ul li img{
+  width: 35px;
+}
+.perflog ul{
+  display: flex;
+  padding: 0px 15px 0px 0px;
+}
+.perflog a{
+  padding: 7px 10px 0px 10px;
+  color: white;
+  font-family: helvetica;
+  font-size: 18px;
+  text-decoration: none;
+}
+.perflog a:hover{
+  text-decoration: underline;
+}
+.perflog ul li{
+  display: inline-block;
+}
+#perlink{
+  visibility: hidden;
+  float: left;
+}
+.perlink a{
+  font-size: 14px;
+  color: aliceblue;
+  padding: 0px 0px 0px 10px;
+  text-decoration: none;
+}
+.perlink a:hover{
+  font-size: 16px;
+}
+#perlink:target{
+  visibility: visible;
+  transition: linear .2s;
+  float: none
+}
+.asidiv aside ul{
+  list-style: none;
+  display: inline-flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.asidiv ul img{
+  width: 30px;
+}
+.asidiv ul li{
+  text-decoration: none;
+  margin: 15px 15px 15px 5px ;
+}
+.asidiv ul:hover{
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: linear .2s;
+
+}

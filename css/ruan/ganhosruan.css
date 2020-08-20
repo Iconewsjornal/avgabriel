@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .geral{
+    background-image: url(../bodybackground.png);
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    padding: 0px 0px 700px 0px;
+  }
+  .headiv h1 img{
+    width: 200px;
+    padding: 0px 0px 0px 10px;
+}
+.headiv{
+    background-image: url(../headbackground.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    padding: 0px 0px 0px 0px;
+}
+.asidiv{
+    background-color: black;
+    padding: 30px 0px 1200px 0px;
+    width: 20%;
+    float: left;
+}
+.asidiv aside a{
+    font-size: 23px;
+    color: white;
+    text-decoration: none;
+    font-family: helvetica;
+}
+.nivel{
+    padding: 30px 0px 40px 0px;
+}
+.nivel a:hover{
+    font-size: 25px;
+    transition: linear .1s;
+}
+.perfil a:hover{
+    font-size: 25px;
+    transition: linear .1s;
+}
+.ganhos{
+    padding: 0px 0px 10px 0px;
+  }
+  .ganhos a:hover{
+    font-size: 25px;
+    transition: linear .1s;
+  }
